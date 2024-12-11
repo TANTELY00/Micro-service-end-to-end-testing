@@ -1,0 +1,8 @@
+services:
+  postgres: 'postgres:latest'
+  environment:
+    - POSTGRES_USER=james
+    - POSTGRES_PASSWORD=1234
+    - POSTGRES_DB=customer-db
+  ports:
+    - "5432:5432"
